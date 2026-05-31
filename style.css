@@ -1,0 +1,79 @@
+/* Background */
+body {
+    background: linear-gradient(135deg, #1d2b64, #f8cdda);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Calculator Box */
+.calculator {
+    width: 320px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+/* Display Screen */
+#display {
+    height: 70px;
+    font-size: 28px;
+    border-radius: 12px;
+    border: none;
+    background: #f1f3f6;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.1),
+                inset -2px -2px 5px rgba(255,255,255,0.7);
+    padding: 10px;
+}
+
+/* Buttons General */
+button {
+    height: 60px;
+    font-size: 18px !important;
+    border-radius: 12px !important;
+    border: none !important;
+    transition: 0.2s ease;
+}
+
+/* Number Buttons */
+.btn-light {
+    background: #f9f9f9;
+}
+
+.btn-light:hover {
+    background: #e0e0e0;
+}
+
+/* Operator Buttons */
+.btn-warning {
+    background: #ff9f43 !important;
+    color: white;
+}
+
+.btn-warning:hover {
+    background: #ff7f00 !important;
+}
+
+/* Equal Button */
+.btn-success {
+    background: #00b894 !important;
+    color: white;
+}
+
+.btn-success:hover {
+    background: #00997a !important;
+}
+
+/* Clear Button */
+.btn-secondary {
+    background: #636e72 !important;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #2d3436 !important;
+}
+
+/* Button Click Effect */
+button:active {
+    transform: scale(0.95);
+}
